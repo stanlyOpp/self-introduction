@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial
+}
+
+.contant {
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #333;
+}
+
+nav {
+  background-color: aliceblue;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  text-align: center;
+  display: flex;
+  background-color: cadetblue;
+  margin: 2px;
+  border-radius: 40px;
+}
+
+nav ul li {
+  margin: 30px;
+  list-style: none;
+}
+
+nav div a {
+  margin: 2px;
+}
+.Home-card p{
+  margin: 10px;
+}
+.Home-card button{
+  cursor: pointer;
+}
+.Displayref-content{
+  background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0);
+  color: black;
+  position: relative;
+  border-radius: 20px;
+
+}
+.Displayref-content p{
+  text-align: left;
+  margin: 1rem;
+}
+.Displayref-content ul{
+  text-align: left;
+  margin: 2rem;
+}
+.About-me {
+  align-items: center;
+}
+
+.skill-card {
+  width: 100vw;
+  align-items: center;
+}
+.skill-card span{
+  margin: 10px;
+  display: "block";
+}
+.skill-card h1 {
+  color: aliceblue;
+  margin: 2px;
+  text-align: center;
+}
+
+.skill-card ul {
+  margin: 2px;
+  color: whitesmoke;
+  display: flex;
+  margin: auto;
+}
+
+.skill-card ul li {
+  margin: 10px;
+  list-style: none;
+}
+
+.Contact-card {
+  color: aliceblue;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.Contact-list {
+  background-color: gray;
+  height: 250px;
+}
+.Contact-list span{
+  color: #333;
+}
+.Contact-card .Contact-list ul {
+  margin: 15px;
+}
+
+.Contact-card .Contact-list h1 {
+  margin: 15px;
+  text-align: center;
+}
+
+.Contact-card .Contact-list ul li {
+  list-style: none;
+}
+
+.Form-message {
+  height: 250px;
+  background-color: aliceblue;
+  color: gray;
+}
+
+.Form-message form {
+  margin: 10px;
+}
+
+.Form-message form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.Form-message form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.Form-message form button {
+  background-color: #333;
+  color: aliceblue;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Form-message form button:hover {
+  color: yellowgreen;
+}
+
+.Home-card {
+  margin-top: 75px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.About-card {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.BottomNavigation{
+  margin-left: 2px;
+  top:20;
+  left: 0;
+}
+.Display-navigation {
+  margin: 20px;
+  background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0);
+  border-radius: 20px;
+  width: 500px;
+  height: 350px;
+}
+.Display-navigation h1{
+  margin-top: 20px;
+}
+.Display-navigation{
+  text-align: center;
+}
+.Introduction-component {
+  margin: 2rem;
+}
+
+.Introduction-component h1 {
+  margin: 0.5px;
+}
+
+.Introduction-component ul {
+  word-wrap: break-word;
+  text-align: left;
+  margin: 2rem;
+}
+
+.Introduction-component ul li {
+  margin: 1rem;
+  list-style: lower-roman;
+}
+.Myinteres-component{
+  margin: 2rem;
+}
+.Myinteres-component h1{
+  margin: 1rem;
+}
+.Myinteres-component ul{
+  margin: 2rem;
+  word-wrap: break-word;
+  text-align: left;
+}
+.Myinteres-component ul li{
+  margin: 1rem;
+  list-style: lower-roman;
+}
+.Background-component{
+  margin: 2rem;
+}
+.Background-component h1{
+  margin: 1rem;
+}
+.Background-component ul{
+  word-wrap: break-word;
+  text-align: left;
+  margin: 2rem;
+}
+.Background-component ul li{
+  margin: 1rem;
+  list-style: lower-roman;
+}
+.Philosophy-component{
+  margin-top: 50px;
+}
+.Slidecontainer {
+  align-items: center;
+  justify-content: center;
+  display: inline;
+}
+
+.Imagecontainer {
+  margin-top: 10px;
+  width: 450px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.Imagecontainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Slidebutton button {
+  margin-left: 1rem;
+}
+.prev{
+  cursor: pointer;
+  font-size: 40px;
+  margin: 20px;
+  font-weight: bold;
+}
+.next{
+  cursor: pointer;
+  font-size: 40px;
+  margin: 20px;
+  font-weight: bold;
+}
+.Education-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  background-color: #333;
+}
+.Course-description {
+  margin: 2.4px;
+  border-radius: 10px;
+  padding: 0.2px;
+  border: 2px;
+  background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0);
+  width: 200px;
+  height: 200px;
+  color: black ;
+}
+.Course-description h2{
+  margin: 2px;
+}
+.Course-description p{
+  margin: 1.5px;
+}
